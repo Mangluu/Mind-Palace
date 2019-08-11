@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Screen2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="RATE THE FOLLOWING FOR YOU ON A SCALE OF 1-10"
+        android:layout_margin="12dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="I was sweating profusely."
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/ans1"
+        android:hint="Answer" />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="My hands, legs or entire body were shaking, trembling, or felt tingly."
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:inputType="number"
+        android:id="@+id/ans2"
+        android:layout_height="wrap_content"
+        android:hint="Answer"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="I had difficulty breathing or swallowing."
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Answer"
+        android:inputType="number"
+        android:id="@+id/ans3"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="I had pain in my chest, almost like I was having a heart attack."
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Answer"
+        android:inputType="number"
+        android:id="@+id/ans4"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="I was scared that I would lose control, go crazy, or die"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Answer"
+        android:inputType="number"
+        android:id="@+id/ans5"
+        android:layout_marginLeft="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp" />
+
+
+</LinearLayout>

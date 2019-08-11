@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Screen1"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="RATE THE FOLLOWING FOR YOU ON A SCALE OF 1-10"
+        android:layout_margin="12dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="I was very anxious, worried or scared about a lot of things in my life."
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/ans1"
+        android:inputType="number"
+        android:hint="Answer" />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="I felt that my worry was out of my control."
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/ans2"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:hint="Answer"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="I felt restless, agitated, frantic, or tense."
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Answer"
+        android:id="@+id/ans3"
+        android:inputType="number"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="I had trouble sleeping - I could not fall or stay asleep, and/or didn't feel well-rested when I woke up."
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Answer"
+        android:inputType="number"
+        android:id="@+id/ans4"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="My heart would skip beat, was pounding, or my heart rate increased."
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Answer"
+        android:id="@+id/ans5"
+        android:inputType="number"
+        android:layout_marginLeft="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:id="@+id/button1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp" />
+
+</LinearLayout>

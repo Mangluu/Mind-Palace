@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Offline">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="    Based on \nyour answers... "
+        android:textStyle="bold"
+        android:id="@+id/tv1"
+        android:textColor="#B9B0"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:layout_below="@id/tv1"
+        android:id="@+id/tv2"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="Sufficient sleep, healthy eating and regular physical activity are important. Try to maintain a regular schedule. Talk to your primary care provider if you have trouble sleeping or if you have questions about diet and physical activity."
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_below="@id/tv2"
+        android:textStyle="italic"
+        android:id="@+id/tv3"
+        android:textSize="20dp"
+        android:text="Work with your doctor or therapist to learn what might trigger your symptoms. Make a plan so that you know what to do if symptoms return. Contact your doctor or therapist if you notice any changes in symptoms or how you feel. Consider involving family members or friends to watch for warning signs."
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="CONSULT THERAPIST"
+        android:id="@+id/button"
+        android:layout_below="@id/tv3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

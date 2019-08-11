@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Intro">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="50dp"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv1"
+        android:textColor="#A0A"
+        android:fontFamily="cursive"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="50dp"
+        android:layout_below="@id/tv1"
+        android:id="@+id/tv2"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="Space Shift is one of the best mental health apps designed specifically for teens and young adults with anxiety. Rather than trying to avoid anxious feelings, Space Shift stresses the importance of changing how you think about anxiety."
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:layout_below="@id/tv2"
+        android:textStyle="italic"
+        android:id="@+id/tv3"
+        android:textSize="20dp"
+        android:text="Think of this app as the cheerleader in your pocket, encouraging you to take charge of your life, ride out intense emotions, and face challenging situations."
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Let us Begin"
+        android:id="@+id/button"
+        android:layout_below="@id/tv3"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
